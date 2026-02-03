@@ -1,0 +1,40 @@
+BaseballPitch: The baseball pitch involves a powerful wind-up and forward motion from the pitcher, who stands on the rubber with legs shoulder-width apart. The main movement is a quick transfer of weight from back to front foot, followed by an overhand throw towards home plate. A baseball is the primary object, released with velocity and spin to challenge the batter's timing and contact ability. This action typically occurs
+
+BasketballDunk: The BasketballDunk involves a player jumping vertically with the ball, typically from a crouched position, to slam the ball forcefully through the hoop while airborne. The main movement includes an explosive leap, a twist or flip of the body, and a powerful impact with the rim or backboard. This action is most commonly seen during basketball games, especially in fast-paced plays or during scoring
+
+Billiards: Billiards involves a player standing upright with a slight bend at the knees, using a cue stick to strike billiard balls on a green cloth table. The primary movement is a smooth, controlled swing followed by a precise hit, often aiming to bank the ball off the cushions or pocket it in a specific pocket. Commonly, the game features three main objects: the cue ball, target
+
+CleanAndJerk: The Clean And Jerk is a weightlifting technique involving two main phases: the clean, where the lifter pulls the barbell to the shoulders, and the jerk, where the bar is pushed overhead. The athlete maintains a strong, upright posture throughout, with knees and hips flexed to generate power. This dynamic lift typically occurs in weightlifting competitions or training sessions.
+
+CliffDiving: Cliff diving involves a diver jumping from a high cliff into water below. The body typically enters in a straight line or tuck position to minimize splash and maximize speed. The process begins with a run along the edge of the cliff, followed by a jump and a series of flips and twists before entering the water. The action usually takes place in coastal areas near cliffs, often at beaches
+
+CricketBowling: Cricket bowling involves a complex sequence of movements starting from a wind-up position with legs shoulder-width apart and the bowling arm extended backward. The bowler then swings the arm forward, pivoting on the front foot, to deliver the ball with precise control and speed towards the batsman. The main object is the cricket ball, which is bowled from one end of the pitch to the
+
+CricketShot: The CricketShot involves a player adopting a crouched stance with knees bent and weight shifted back, then swinging the bat with force to hit the ball. The main movement is a powerful, coordinated motion from the legs through the hips and shoulders, ending with a follow-through. This action typically occurs during cricket matches when a batsman attempts to strike the ball.
+
+Diving: Diving typically involves a sudden, controlled fall into water, characterized by a bent-knee, tucked posture to maximize speed and efficiency. The diver's body rotates and extends as they approach the water's surface, creating a streamlined shape. This action is often seen in swimming pools during competitive diving events or in natural bodies of water for recreational activities.
+
+FrisbeeCatch: The FrisbeeCatch involves a person adopting an open stance with arms extended to receive the flying disc. The main movement includes a quick wrist snap to secure the frisbee upon contact, followed by a controlled lowering of the arm. This action typically occurs in outdoor settings during recreational activities or sports like ultimate frisbee.
+
+GolfSwing: The GolfSwing involves a complex sequence of body movements, starting with a backswing where the golfer rotates their hips and shoulders, then initiating the downswing by pivoting forward, and finally following through with a full extension of the arms to strike the ball. This action typically occurs on a golf course, involving a golf club and a golf ball, set against a backdrop of green
+
+HammerThrow: The HammerThrow involves a powerful rotational motion starting from a crouched position, with the athlete swinging a heavy hammer-like implement in a wide arc before releasing it. The main movement is characterized by a dynamic build-up of momentum through a series of rapid, coordinated body rotations, culminating in a forceful release. This action typically occurs in a throwing circle at athletic competitions, where the
+
+HighJump: The HighJump involves a runner adopting a crouched position at the takeoff board, then sprintinging and explosively launching themselves over a bar using a straddle, scissors, or forehead technique. The main movement is a powerful upward and forward motion, clearing the bar with the body while the legs continue over. A crossbar and pit of foam or sand are typically present.
+
+JavelinThrow: The JavelinThrow involves an athlete starting with the javelin held behind the shoulder, then rotating the body to build up momentum before releasing the javelin forward and downward at an angle. This dynamic motion propels the javelin through a parabolic arc. The primary object is a light, slender javelin, typically made of aluminum or carbon fiber. This action is most commonly seen
+
+LongJump: LongJump involves a runner adopting a crouched position at the board, then sprintinging and explosively launching into the air over the bar. The athlete's body arches backward as they clear the bar, with legs extended and arms outstretched for balance. This event typically occurs in track and field competitions, requiring precise timing and explosive power.
+
+PoleVault: PoleVault involves a runner adopting a crouched start, then sprinting to build momentum before planting the pole into a box at the approach end of the vaulting pit. As they swing over, the pole bends, propelling them high into the air. The vault is typically performed on a grassy or sandy pit, with a flexible pole and a high bar set at the
+
+Shotput: The Shotput involves a powerful throwing motion where the athlete stands with feet shoulder-width apart, holding the shot. They rotate their body, building momentum, then extend their arm forward to throw the heavy sphere as far as possible. This action typically occurs in track and field events during competitions.
+
+SoccerPenalty: A soccer penalty involves a stationary goalkeeper facing the kicker, while the kicker runs up to the ball, takes a stance, and then kicks with power and precision towards the goal. The main movement is a swift, focused motion directed at the center of the goal. The ball, the referee, and the goalkeeper are key objects involved, with the kicker's teammates and opponents watching intently from
+
+TennisSwing: TennisSwing involves a coordinated rotation of the torso, followed by a forward swing of the arm, with the racquet extending to make contact with the ball. The main movement is a powerful, fluid motion that transfers energy from the lower body through the core and into the racquet. This action typically occurs during a tennis match, often seen when a player is preparing to hit a
+
+ThrowDiscus: The throwdiscus action involves a powerful rotational movement starting from a crouched position. The athlete swings the discus backward, then forcefully rotates to release it with maximum velocity. This event typically occurs in track and field competitions, where the discus—a heavy, concave metal disc—is thrown as far as possible.
+
+VolleyballSpiking: Volleyball spiking involves a powerful jumping motion where the player bends their knees, extends their arms overhead, and swings one arm down with force to hit the ball. This dynamic action transfers significant kinetic energy from the player's body to the ball, aiming to score a point by landing it out of bounds or directly into the opponent's court. The spiker typically uses a volleyball,
+
