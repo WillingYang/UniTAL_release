@@ -25,7 +25,7 @@ class TextFeatures(nn.Module):
         self.train_classes = self._load_classes(subset_file, data_split, 'train', split_num)
         self.test_classes = self._load_classes(subset_file, data_split, 'test', split_num)
 
-        self.cls2desc = self._load_descriptions('/home/ywl/disk1/thumos14_action_descriptions3.txt')
+        self.cls2desc = self._load_descriptions('')
 
         self.tokenizer = CLIPTokenizer.from_pretrained(model_path)
         self.txt_model = CLIPModel.from_pretrained(model_path, ignore_mismatched_sizes=True).float()
@@ -54,19 +54,17 @@ class TextFeatures(nn.Module):
                                 return_tensors="pt").to(device)
 
         if hasattr(self.txt_model, 'get_text_features'):
-            # 获取未池化的嵌入 (B, class_nums, L, D)
+
             text_outputs = self.txt_model.text_model(
                 input_ids=texts["input_ids"],
                 attention_mask=texts["attention_mask"],
                 return_dict=True,
                 output_hidden_states=True
             )
-            # 获取最后一层的隐藏状态 (B, class_nums, L, D)
+
             hidden_states = self.text_projection(text_outputs.last_hidden_state)
             # Debugging statement to print shapes
             
-            
-            # 获取池化后的嵌入 (B, class_nums, D)
             pooled_output = self.txt_model.get_text_features(**texts)
 
         else:
@@ -86,7 +84,7 @@ class TextFeatures(nn.Module):
         return split_dict
     
     def _load_descriptions(self, file_path):
-        """将txt里的描述读成字典 {class_name: description}"""
+
         cls2desc = {}
         with open(file_path, 'r', encoding='utf-8') as f:
             for line in f:
@@ -99,13 +97,13 @@ class TextFeatures(nn.Module):
         return cls2desc
 
     def get_prompt(self, cls_names):
-        """根据类别名返回对应的描述，如果找不到则用默认提示"""
+
         prompt_cls_name = []
         for c in cls_names:
             if c in self.cls2desc:
                 prompt_cls_name.append(self.cls2desc[c])
             else:
-                # fallback: 使用默认模板
+     
                 prompt_cls_name.append(f'a video of action {c}')
           
         return prompt_cls_name
@@ -125,14 +123,14 @@ class TextFeatures(nn.Module):
         cls_name = cls_name + ["no actions"]
 
 
-        # 获取未池化和池化的嵌入
+ 
         text_emb_unpooled, text_emb_pooled = self.extract_text_emb(cls_name, is_prompt=True)
         
-        # 如果未池化的嵌入是 3D (B, class_nums, L, D)，需要扩展为 4D
+   
         if len(text_emb_unpooled.size()) == 3:
             text_emb_unpooled = text_emb_unpooled.unsqueeze(0).expand(batch_size, -1, -1, -1)
      
-        # 如果池化的嵌入是 2D (B, class_nums, D)，需要扩展为 3D
+
         if len(text_emb_pooled.size()) == 2:
             text_emb_pooled = text_emb_pooled.unsqueeze(0).expand(batch_size, -1, -1)
 
